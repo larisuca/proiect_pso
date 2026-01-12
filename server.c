@@ -133,16 +133,16 @@ void handle_shutdown(int sig) {
 void write_log_to_xml(const char *log_msg) {
 
 
-    static int call_count = 0;
+    static int call_count = 0;//aceasta variabila ne arata de cate ori a fost apelata functia
     if (++call_count % 100 == 0) {
-        rotate_logs_if_needed();
+        rotate_logs_if_needed();//se creste contorul ;o data la 100 de loguri se verifica dimensiunea fisiserului
     }
 
-    pthread_mutex_lock(&file_lock);
+    pthread_mutex_lock(&file_lock);//blocheaza resturile thredurilor sa nu scrie
     FILE *f = fopen(XML_FILE, "a");
     if (!f) {
         perror("Eroare la deschiderea fisierului XML");
-        pthread_mutex_unlock(&file_lock);
+        pthread_mutex_unlock(&file_lock);//se elibereaza mutexul ca sa nu ramana blocat
         return;
     }
 
