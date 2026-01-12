@@ -16,6 +16,12 @@
 // ← Adaugă după #define XML_FILE "logs.xml"
 
 // Funcție pentru escapare caractere XML
+//input -textul pe care l primim de la clienti
+//output-bufferul in care scriem textul final
+//max_size este dimensiunea lui 
+//scpo:pt transformarea carcaterelor periculoase xml in caractere valide pt el
+//forma mesaj xml <tag>valoare</tag>
+
 void xml_escape(char *output, const char *input, size_t max_len) {
     size_t j = 0;
     for (size_t i = 0; input[i] && j < max_len - 6; i++) {
@@ -45,8 +51,10 @@ void xml_escape(char *output, const char *input, size_t max_len) {
 pthread_mutex_t file_lock; // protejeaza scrierea în fisierul comun
 
 // Închide corect fișierul XML
+//aceasta functie scrie tagul de inchidere a unui fisier xml 
+//si elibereaza ultimul mutex 
 void close_xml_file() {
-    pthread_mutex_lock(&file_lock);
+    pthread_mutex_lock(&file_lock);//garanteaza ca nimeni nu scrie in fisiser in timp ce scrie altcnv
     FILE *f = fopen(XML_FILE, "a");
     if (f) {
         fprintf(f, "</logs>\n");
@@ -58,6 +66,9 @@ void close_xml_file() {
 
 
 // Rotație loguri când fișierul devine prea mare
+//aceasta functie verifica daca dimensiunea fisierului a depasit 10mb
+//daca da il arhiveaza cu stamstemp
+//creaza un fisiser nou de loguri
 void rotate_logs_if_needed() {
     struct stat st;
     if (stat(XML_FILE, &st) == 0 && st.st_size > MAX_LOG_SIZE) {
@@ -111,6 +122,8 @@ void log_server_event(const char *level, const char *message) {
     }
 }
 // Handler pentru închidere curată
+//Dacă serverul rulează și utilizatorul apasă CTRL+C, sistemul de operare trimite SIGINT. Funcția handle_shutdown este apelată,
+ //închide corect fișierul XML, eliberează mutex-ul și termină procesul fără a lăsa date corupte.
 void handle_shutdown(int sig) {
     printf("\n[INFO] Semnal %d primit. Se închide serverul...\n", sig);
     close_xml_file();

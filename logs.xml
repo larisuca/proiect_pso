@@ -2498,3 +2498,364 @@
         <message>Unauthorized access attempt</message>
     </log>
 </logs>
+    <log>
+        <timestamp>2026-01-12 12:10:14</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:15</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>User login successful</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:15</timestamp>
+        <app>App2</app>
+        <level>WARN</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:16</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:18</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:18</timestamp>
+        <app>App1</app>
+        <level>INFO</level>
+        <message>UI button clicked</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:19</timestamp>
+        <app>App2</app>
+        <level>WARN</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:19</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Sensor value out of range</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:20</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:21</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:21</timestamp>
+        <app>App1</app>
+        <level>INFO</level>
+        <message>File saved successfully</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:22</timestamp>
+        <app>App1</app>
+        <level>INFO</level>
+        <message>UI button clicked</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:23</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:23</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:25</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>Database query executed</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:25</timestamp>
+        <app>App1</app>
+        <level>INFO</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:26</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:27</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:28</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:28</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:29</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:29</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>File saved successfully</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:29</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:31</timestamp>
+        <app>App1</app>
+        <level>WARN</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:31</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:32</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>UI button clicked</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:32</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:33</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:33</timestamp>
+        <app>App1</app>
+        <level>WARN</level>
+        <message>File saved successfully</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:33</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:34</timestamp>
+        <app>App1</app>
+        <level>INFO</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:34</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:34</timestamp>
+        <app>App3</app>
+        <level>WARN</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:35</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:35</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:36</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:36</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>File saved successfully</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:36</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:37</timestamp>
+        <app>App2</app>
+        <level>WARN</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:37</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>UI button clicked</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:39</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:39</timestamp>
+        <app>App3</app>
+        <level>INFO</level>
+        <message>Sensor value out of range</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:40</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>Database query executed</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:40</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:41</timestamp>
+        <app>App1</app>
+        <level>WARN</level>
+        <message>User login successful</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:42</timestamp>
+        <app>App2</app>
+        <level>WARN</level>
+        <message>Database query executed</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:42</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:42</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:44</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>User login successful</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:45</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>Connection reset by peer</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:45</timestamp>
+        <app>App1</app>
+        <level>ERROR</level>
+        <message>Unauthorized access attempt</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:45</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:46</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:48</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:49</timestamp>
+        <app>App3</app>
+        <level>WARN</level>
+        <message>Sensor value out of range</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:51</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>API request timeout</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:52</timestamp>
+        <app>App3</app>
+        <level>WARN</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:53</timestamp>
+        <app>App3</app>
+        <level>ERROR</level>
+        <message>Disk space low</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:54</timestamp>
+        <app>App2</app>
+        <level>ERROR</level>
+        <message>Memory usage high</message>
+    </log>
+    <log>
+        <timestamp>2026-01-12 12:10:57</timestamp>
+        <app>App2</app>
+        <level>INFO</level>
+        <message>API request timeout</message>
+    </log>
+</logs>
