@@ -84,12 +84,15 @@ void write_local_log(const char *app_name, const char *log_msg) {
 }
 
 int main(int argc, char *argv[]) {
+    
     if (argc < 2) {
-        printf("Utilizare: %s <AppName>\n", argv[0]);
-        return -1;
+    printf("Utilizare: %s <AppName> [ServerIP]\n", argv[0]);
+    printf("Exemplu: %s App1 192.168.1.100\n", argv[0]);
+    return -1;
     }
 
     const char *app_name = argv[1];
+    const char *server_ip = (argc >= 3) ? argv[2] : SERVER_IP;  // Folosește default dacă nu e specificat
     srand(time(NULL) ^ getpid()); // seed unic pentru fiecare instanță
 
     int sock = 0;
@@ -106,7 +109,7 @@ int main(int argc, char *argv[]) {
     serv_addr.sin_port = htons(PORT);
 
     // Conversie IP
-    if (inet_pton(AF_INET, SERVER_IP, &serv_addr.sin_addr) <= 0) {
+    if (inet_pton(AF_INET, server_ip, &serv_addr.sin_addr) <= 0) {
         perror("Adresa IP invalidă");
         return -1;
     }
@@ -117,7 +120,7 @@ int main(int argc, char *argv[]) {
         return -1;
     }
 
-    printf("[%s] Conectat la server (%s:%d)\n", app_name, SERVER_IP, PORT);
+    printf("[%s] Conectat la server (%s:%d)\n", app_name, server_ip, PORT);
 
     // Trimite un număr limitat de loguri
     for (int i = 0; i < MAX_MESSAGES; i++) {
