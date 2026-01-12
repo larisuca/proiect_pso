@@ -1,0 +1,40 @@
+[2025-10-27 10:30:33] [App3] [ERROR]: Memory usage high
+[2025-10-27 10:30:34] [App3] [WARN]: Disk space low
+[2025-10-27 10:30:35] [App3] [INFO]: Unauthorized access attempt
+[2025-10-27 10:30:37] [App3] [WARN]: Memory usage high
+[2025-10-27 10:30:39] [App3] [WARN]: Disk space low
+[2025-10-27 10:30:40] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 10:30:41] [App3] [ERROR]: Disk space low
+[2025-10-27 10:30:44] [App3] [ERROR]: Memory usage high
+[2025-10-27 10:30:47] [App3] [WARN]: Disk space low
+[2025-10-27 10:30:48] [App3] [ERROR]: API request timeout
+[2025-10-27 10:30:49] [App3] [INFO]: Unauthorized access attempt
+[2025-10-27 10:30:51] [App3] [INFO]: Unauthorized access attempt
+[2025-10-27 10:30:53] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 10:30:55] [App3] [INFO]: Disk space low
+[2025-10-27 10:30:57] [App3] [WARN]: Memory usage high
+[2025-10-27 10:30:58] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 10:31:00] [App3] [ERROR]: API request timeout
+[2025-10-27 10:31:02] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 10:31:04] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 10:31:05] [App3] [ERROR]: Memory usage high
+[2025-10-27 10:59:44] [App3] [WARN]: API request timeout
+[2025-10-27 10:59:45] [App3] [WARN]: Sensor value out of range
+[2025-10-27 10:59:47] [App3] [INFO]: Sensor value out of range
+[2025-10-27 10:59:49] [App3] [WARN]: Disk space low
+[2025-10-27 10:59:51] [App3] [INFO]: API request timeout
+[2025-10-27 10:59:52] [App3] [ERROR]: Sensor value out of range
+[2025-10-27 10:59:55] [App3] [WARN]: Unauthorized access attempt
+[2025-10-27 10:59:57] [App3] [ERROR]: API request timeout
+[2025-10-27 10:59:58] [App3] [ERROR]: Sensor value out of range
+[2025-10-27 11:00:00] [App3] [WARN]: Memory usage high
+[2025-10-27 11:00:01] [App3] [INFO]: Sensor value out of range
+[2025-10-27 11:00:04] [App3] [WARN]: Disk space low
+[2025-10-27 11:00:05] [App3] [ERROR]: Sensor value out of range
+[2025-10-27 11:00:07] [App3] [WARN]: Unauthorized access attempt
+[2025-10-27 11:00:09] [App3] [ERROR]: Unauthorized access attempt
+[2025-10-27 11:00:10] [App3] [INFO]: Unauthorized access attempt
+[2025-10-27 11:00:13] [App3] [WARN]: API request timeout
+[2025-10-27 11:00:14] [App3] [INFO]: Unauthorized access attempt
+[2025-10-27 11:00:15] [App3] [WARN]: Sensor value out of range
+[2025-10-27 11:00:18] [App3] [INFO]: Sensor value out of range

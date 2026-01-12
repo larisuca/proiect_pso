@@ -1,0 +1,40 @@
+[2025-10-27 10:30:33] [App2] [WARN]: Memory usage high
+[2025-10-27 10:30:36] [App2] [INFO]: Memory usage high
+[2025-10-27 10:30:37] [App2] [ERROR]: API request timeout
+[2025-10-27 10:30:40] [App2] [WARN]: Disk space low
+[2025-10-27 10:30:43] [App2] [ERROR]: API request timeout
+[2025-10-27 10:30:46] [App2] [ERROR]: Memory usage high
+[2025-10-27 10:30:48] [App2] [WARN]: Disk space low
+[2025-10-27 10:30:49] [App2] [INFO]: Connection reset by peer
+[2025-10-27 10:30:50] [App2] [INFO]: Memory usage high
+[2025-10-27 10:30:53] [App2] [WARN]: Connection reset by peer
+[2025-10-27 10:30:56] [App2] [WARN]: API request timeout
+[2025-10-27 10:30:59] [App2] [INFO]: Disk space low
+[2025-10-27 10:31:02] [App2] [WARN]: Disk space low
+[2025-10-27 10:31:04] [App2] [WARN]: Disk space low
+[2025-10-27 10:31:07] [App2] [WARN]: Disk space low
+[2025-10-27 10:31:08] [App2] [WARN]: Database query executed
+[2025-10-27 10:31:10] [App2] [INFO]: Database query executed
+[2025-10-27 10:31:13] [App2] [INFO]: Connection reset by peer
+[2025-10-27 10:31:14] [App2] [WARN]: Connection reset by peer
+[2025-10-27 10:31:16] [App2] [INFO]: API request timeout
+[2025-10-27 10:59:44] [App2] [WARN]: Connection reset by peer
+[2025-10-27 10:59:45] [App2] [WARN]: Connection reset by peer
+[2025-10-27 10:59:47] [App2] [WARN]: Memory usage high
+[2025-10-27 10:59:50] [App2] [WARN]: API request timeout
+[2025-10-27 10:59:52] [App2] [INFO]: Connection reset by peer
+[2025-10-27 10:59:54] [App2] [WARN]: API request timeout
+[2025-10-27 10:59:56] [App2] [WARN]: Disk space low
+[2025-10-27 10:59:57] [App2] [WARN]: Connection reset by peer
+[2025-10-27 10:59:59] [App2] [ERROR]: Memory usage high
+[2025-10-27 11:00:01] [App2] [WARN]: API request timeout
+[2025-10-27 11:00:02] [App2] [ERROR]: Disk space low
+[2025-10-27 11:00:05] [App2] [INFO]: Connection reset by peer
+[2025-10-27 11:00:08] [App2] [WARN]: API request timeout
+[2025-10-27 11:00:09] [App2] [INFO]: Database query executed
+[2025-10-27 11:00:11] [App2] [ERROR]: Memory usage high
+[2025-10-27 11:00:14] [App2] [WARN]: Database query executed
+[2025-10-27 11:00:17] [App2] [INFO]: Database query executed
+[2025-10-27 11:00:19] [App2] [WARN]: Disk space low
+[2025-10-27 11:00:20] [App2] [INFO]: Connection reset by peer
+[2025-10-27 11:00:23] [App2] [ERROR]: Connection reset by peer
