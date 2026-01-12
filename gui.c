@@ -97,7 +97,7 @@ void filter_logs(const char *keyword) {
     fclose(f);
 
     // Renumără DOAR logurile noi (după poziția inițială)
-    f = fopen(XML_FILE, "r");
+    f = fopen(XML_FILE, "r"); 
     if (f) {
         info_count = 0;
         warn_count = 0;
