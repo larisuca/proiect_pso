@@ -40,7 +40,7 @@ void filter_logs(const char *keyword) {
         gtk_text_buffer_set_text(buffer, "", -1);
         log_count = 0;
         
-        // ✅ NU reseta last_file_position - păstrează poziția pentru loguri noi!
+        // NU reseta last_file_position - păstrează poziția pentru loguri noi!
         // Citește de la poziția inițială (nu de la 0)
         if (initial_file_position > 0) {
             fseek(f, initial_file_position, SEEK_SET);  // ← Începe de la poziția inițială
